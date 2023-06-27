@@ -1,0 +1,11 @@
+Project Nmae:- Push-Up and Pull-up Detection with repetition count
+
+Libraries Used:- cv2, numpy, mediapipe and PoseModule
+To Install these Libraries run the following code in terminal. (pip install cv2 numpy mediapipe PoseModule)
+
+Activate mediapipe’s Pose Detection module.
+Detect the human body.
+Finds the position of the different landmarks on the human body based on the model.
+Finds the angle between joints (depending on which joints you select).
+For my program, I chose to find the angle at the elbow, shoulder, and hip as those are vital for proper push-up or pull-up form.
+I chose to find the angle at the wrist to differentiate between a pull-up or a push-up.
